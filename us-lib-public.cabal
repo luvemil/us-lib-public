@@ -168,6 +168,8 @@ test-suite us-lib-public-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Utils.AWS.DynamoDBSpec
+      Utils.AWS.S3Spec
       Paths_us_lib_public
   hs-source-dirs:
       test
